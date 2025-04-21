@@ -7,8 +7,10 @@ const pokemonSchema = new mongoose.Schema({
     unique: true
   },
   name: {
-    type: String,
-    required: true
+    english: String,
+    japanese: String,
+    chinese: String,
+    french: String
   },
   types: [{
     type: String,
