@@ -11,7 +11,7 @@ dotenv.config();
 connectDB();
 
 // Configuration d'Express
-const app = express();
+const app = express();  
 const PORT = process.env.PORT || 3000;
 
 // Middleware pour parser le JSON
@@ -23,6 +23,9 @@ app.use(cors({
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"]
 }));
+
+// Serve static files from backend's /assets folder
+//app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
 // Routes
 app.use("/api/pokemons", pokemonRoutes);

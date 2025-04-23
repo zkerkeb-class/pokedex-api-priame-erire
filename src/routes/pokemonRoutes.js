@@ -33,7 +33,6 @@ router.get('/:id', async (req, res) => {
 });
 
 // POST - Créer un nouveau pokémon
-// POST - Créer un nouveau pokémon
 router.post('/', async (req, res) => {
   try {
     // Vérifier si l'ID existe déjà
@@ -48,6 +47,7 @@ router.post('/', async (req, res) => {
     const newPokemon = new Pokemon(pokemonData);
     await newPokemon.save();
     res.status(201).json(newPokemon);
+    console.log(newPokemon);
   } catch (error) {
     res.status(400).json({
       message: "Erreur lors de la création du pokémon",
