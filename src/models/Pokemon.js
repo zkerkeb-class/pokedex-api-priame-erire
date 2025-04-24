@@ -27,8 +27,8 @@ const pokemonSchema = new mongoose.Schema({
     HP: Number,
     Attack: Number,
     Defense: Number,
-    "Sp_Attack": Number,  // Escaped the dot
-    "Sp_Defense": Number, // Escaped the dot
+    "Sp_Attack": Number,  
+    "Sp_Defense": Number, 
     Speed: Number
   }
 }, {

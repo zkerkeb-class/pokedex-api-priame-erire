@@ -8,6 +8,12 @@ import mongoose from "mongoose";
 // Load environment variables
 dotenv.config();
 
+// server configuration for 
+require('dotenv').config();
+const express = require('express');
+const jwt = require('jsonwebtoken');
+const bcrypt = require('bcryptjs');
+
 // Set up file paths
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
