@@ -1,0 +1,108 @@
+[{
+  "_id": {
+    "$oid": "680a4d11cd90ebd08ffa9309"
+  },
+  "username": "administrator",
+  "password": "$2b$10$VEFcrFcBFwafIBpHhFvxx.3QmKn41JK.X9S6kaxUIzouGXlz2pZeu",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-04-24T14:39:13.125Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680aa710f75938fd3cdb6ba3"
+  },
+  "username": "admionistrator",
+  "password": "$2b$10$6oukfaD.U.bPFFRwtpy38uUplFwIDB9Z27uNgWUIWk26bzmZszD5u",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-04-24T21:03:12.889Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680aab2ef75938fd3cdb6baa"
+  },
+  "username": "toto",
+  "password": "$2b$10$k2RckGme5396IZFuZQ5ODOmQYrZDGDAZI1aHmzhsw359kJIzFMXdG",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-04-24T21:20:46.015Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680aad3af75938fd3cdb6bcd"
+  },
+  "username": "zoé",
+  "password": "$2b$10$nmIZyTVqtYydb/NW5pukcete7lgNRf/M4GzCC9ygUboplsR9lU/JO",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-04-24T21:29:30.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680aae4af75938fd3cdb6bd0"
+  },
+  "username": "tata",
+  "password": "$2b$10$81RM5hAHtkuE3KDQjh8Fr.GrHbxlR.GICZ4otCvcm/1doXhlB8xDm",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-04-24T21:34:02.448Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680b738a8f2c89d6229d5049"
+  },
+  "username": "pikutchu",
+  "password": "$2b$10$dHtMP9D4h/BKg1HqAXmB2OfdAlpNA1NIiRrlIeUjVkPdacKLru8t2",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-04-25T11:35:38.783Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680b877759c20f631ab7d77f"
+  },
+  "username": "amen",
+  "password": "$2b$10$3TCGxhjdXGkjV76l4T.QOemIzH81FIxCMc6SpRPhN3xXflw79jX8a",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-04-25T13:00:39.643Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bf438af0de997f4f19613"
+  },
+  "username": "azer",
+  "password": "$2b$10$uiyIsU8xTN6d1nkf1j8nyOlGrJkmr0LIx0HNQYdgeScTt7aWzREVy",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-04-25T20:44:40.345Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680d0a4779aff1397e90298f"
+  },
+  "username": "Pierre-Marie",
+  "password": "$2b$10$EgYdnDm0Voru6cpMTC/lsuFsHdYgKFYMS.vFmQMuCdeIJreYV0rt6",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-04-26T16:31:03.731Z"
+  },
+  "__v": 0
+}]
